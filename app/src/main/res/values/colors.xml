@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (Purple) -->
+    <color name="primary_purple">#6750A4</color>
+    <color name="primary_purple_variant">#4F378B</color>
+    <color name="on_primary_purple">#FFFFFF</color>
+
+    <color name="primary_purple_dark">#D0BCFF</color>
+    <color name="on_primary_purple_dark">#381E72</color>
+
+    <!-- Teal Accents -->
+    <color name="teal_light">#4DB6AC</color>
+    <color name="teal_dark">#004D40</color>
+
+    <!-- Error Colors -->
+    <color name="error_red">#B3261E</color>
+    <color name="on_error_red">#FFFFFF</color>
+</resources>
