@@ -4,6 +4,8 @@ Android network toolkit: scan, spoof, analyze.
 
 A hands-on tool for understanding what's happening on your Wi-Fi. Combines network scanning, traffic analysis, and device identity spoofing. Works with or without root.
 
+# WARNING: THIS IS A BEGINNER PROJECT! HALF OF THIS MAY NOT WORK! TREAT THIS AS SOME KID'S HAND-MADE TOY ⚠️ 
+
 ---
 
 ## 📦 Features
