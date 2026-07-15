@@ -47,7 +47,9 @@ A hands-on tool for understanding what's happening on your Wi-Fi. Combines netwo
 ## 📥 Build
 
 git clone https://github.com/eatenlamp/Netspoofer.git
+
 cd Netspoofer
+
 # Open in Android Studio
 # Build :app
 
