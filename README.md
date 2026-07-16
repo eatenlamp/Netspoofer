@@ -8,6 +8,7 @@ A hands-on tool for understanding what's happening on your Wi-Fi. Combines netwo
 ---
 
 ## 🌠 Screenshots 
+
 <table>
   <tr>
     <td><img width="150" alt="Screenshot 1" src="https://github.com/user-attachments/assets/d128885a-0bb4-4a6b-b045-e6ddc4e6a36e" /></td>
