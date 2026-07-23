@@ -2,7 +2,7 @@
 
 Android network toolkit: scan, spoof, analyze.
 
-A hands-on tool for understanding what's happening on your Wi-Fi. Combines network scanning, traffic analysis, and device identity spoofing. Works with or without root.
+A tool for understanding what's happening on your Wi-Fi. Combines network scanning, traffic analysis, and device identity spoofing. Works with or without root.
 
 # WARNING: THIS IS A BEGINNER PROJECT!
 ---
@@ -23,9 +23,9 @@ A hands-on tool for understanding what's happening on your Wi-Fi. Combines netwo
 ## 📦 Features
 
 ### 📱 Device Spoofing (root)
-- Change model, manufacturer, build fingerprint via resetprop
+- Change model, manufacturer, build fingerprint with resetprop
 - Change Wi-Fi MAC address
-- OUI database for valid vendor MAC generation
+- Generates valid MAC addresses from database
 
 ### 🔍 Network Scanning
 - Fast parallel ping sweep
@@ -34,7 +34,7 @@ A hands-on tool for understanding what's happening on your Wi-Fi. Combines netwo
 - Nmap support (if installed)
 
 ### ⚔️ ARP & MITM (root)
-- ARP spoofing with traffic redirction
+- ARP spoofing with traffic redirection
 - HTTP/DNS capture via tcpdump
 - Global DNS redirect via iptables
 - One-tap device blocking
