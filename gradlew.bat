@@ -1,3 +1,7 @@
+REM SPDX-FileCopyrightText: 2026 eatenlamp eatenlamp@proton.me
+REM
+REM SPDX-License-Identifier: AGPL-3.0-or-later
+
 @rem
 @rem Copyright 2015 the original author or authors.
 @rem

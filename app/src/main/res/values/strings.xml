@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 eatenlamp eatenlamp@proton.me
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <resources>
     <string name="app_name">NetSpoofer</string>
     <string name="apply">Apply</string>

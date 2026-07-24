@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 eatenlamp <eatenlamp@proton.me>
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+opt_out_usage
+default_platform(:android)
+
+platform :android do
+  desc "Build release apk"
+  lane :build do
+    gradle(task: 'assembleRelease')
+    sh "cp app/build/outputs/apk/release/app-release.apk ./Netspoofer_latest.apk"
+    puts "✅ Ready APK: #{Dir.pwd}/Netspoofer_latest.apk"
+  end
+end
