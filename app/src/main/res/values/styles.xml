@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2026 eatenlamp eatenlamp@proton.me
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <resources>
     <style name="RoundedButton" parent="Widget.Material3.Button">
         <item name="cornerRadius">12dp</item>

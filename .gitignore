@@ -1,5 +1,29 @@
+# SPDX-FileCopyrightText: 2026 eatenlamp eatenlamp@proton.me
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 /build/
 /.idea/
 *.iml
 local.properties
 *.apk
+*.jks
+key.properties
+.DS_Store
+*.log
+/captures/
+.externalNativeBuild/
+.env
+
+.gradle/
+gradle-wrapper.properties
+
+fastlane/report.xml
+fastlane/test_output
+fastlane/Preview.html
+fastlane/screenshots
+
+Thumbs.db
+*.swp
+*.lock
+gradle-wrapper.properties

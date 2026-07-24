@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 eatenlamp eatenlamp@proton.me
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Add project specific R8 rules here.
 # AGP will combine all keep rule files in src/main/keepRules to pass to R8
 #

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2026 eatenlamp eatenlamp@proton.me
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <resources>
     <!-- Brand Colors (Purple) -->
     <color name="primary_purple">#6750A4</color>
