@@ -91,4 +91,6 @@ The developer is not responsible for how this tool is used.
 
 ## 📄 License
 
-MIT
+AGPL-3.0 or later
+
+- See License file for more information.
