@@ -91,4 +91,4 @@ The developer is not responsible for how this tool is used.
 
 ## 📄 License
 
-MIT
+GPLv3
