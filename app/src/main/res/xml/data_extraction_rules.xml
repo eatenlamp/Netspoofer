@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+SPDX-FileCopyrightText: 2026 eatenlamp
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="file" path="."/>
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="."/>
+    </device-transfer>
+</data-extraction-rules>
