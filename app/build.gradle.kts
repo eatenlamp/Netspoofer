@@ -14,6 +14,15 @@ android {
     namespace = "netspoofer.full"
     compileSdk = 35
 
+    signingConfigs {
+        create("release") {
+            storeFile = System.getenv("KEYSTORE_PATH")?.let { file(it) }
+            storePassword = System.getenv("KEYSTORE_PASSWORD")
+            keyAlias = System.getenv("KEY_ALIAS")
+            keyPassword = System.getenv("KEY_PASSWORD")
+        }
+    }
+
     defaultConfig {
         applicationId = "netspoofer.full"
         minSdk = 29
