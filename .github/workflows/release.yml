@@ -34,6 +34,11 @@ jobs:
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > netspoofer.jks
 
+      - name: Check keystore
+        run: |
+          ls -la
+          file netspoofer.jks
+
       - name: Build and sign APK
         run: ./gradlew assembleRelease
         env:
