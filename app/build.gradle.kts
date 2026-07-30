@@ -12,7 +12,7 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("netspoofer.jks")
+            storeFile = file("../netspoofer.jks")
             storePassword = System.getenv("KEYSTORE_PASSWORD")
             keyAlias = System.getenv("KEY_ALIAS")
             keyPassword = System.getenv("KEY_PASSWORD")
