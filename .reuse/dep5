@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Netspoofer
+Upstream-Contact: eatenlamp <eatenlamp@proton.me>
+
+Files: app/src/main/res/mipmap-*/ic_launcher.webp
+Copyright: 2026 eatenlamp <eatenlamp@proton.me>
+License: AGPL-3.0-or-later
+
+Files: app/src/main/res/mipmap-*/ic_launcher_round.webp
+Copyright: 2026 eatenlamp <eatenlamp@proton.me>
+License: AGPL-3.0-or-later

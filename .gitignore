@@ -27,3 +27,4 @@ Thumbs.db
 *.swp
 *.lock
 gradle-wrapper.properties
+keystore_base64_clean.txt
