@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 2026 eatenlamp <eatenlamp@proton.me>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 name: Build and Release
 
 on:
@@ -29,12 +33,12 @@ jobs:
       - name: Decode keystore
         run: |
           mkdir -p keystore
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > keystore/netspoofer.jks
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > app/keystore/netspoofer.jks
 
       - name: Build and sign APK
         run: ./gradlew assembleRelease
         env:
-          KEYSTORE_PATH: keystore/netspoofer.jks
+          KEYSTORE_PATH: /app/keystore/netspoofer.jks
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}

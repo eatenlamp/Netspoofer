@@ -1,0 +1,15 @@
+version = 1
+SPDX-PackageName = "Netspoofer"
+SPDX-PackageSupplier = "eatenlamp <eatenlamp@proton.me>"
+
+[[annotations]]
+path = "app/src/main/res/mipmap-**/ic_launcher.webp"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 eatenlamp <eatenlamp@proton.me>"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+[[annotations]]
+path = "app/src/main/res/mipmap-**/ic_launcher_round.webp"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 eatenlamp <eatenlamp@proton.me>"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
